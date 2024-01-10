@@ -1,0 +1,41 @@
+body{
+    background-color:#272B3F;;
+    position:relative;
+    background-image: url(https://cdn.dribbble.com/users/1637204/screenshots/12203854/logo_mockup_on_paper_139_4x.jpg);
+    
+    
+    
+    
+}
+a{
+    text-decoration:none;
+    position:absolute;
+    
+}
+a img{
+    background:white;
+    width:86px;
+    position:absolute;
+    left:520px;
+    top:360px;
+}
+img{
+    padding: 1px;
+}
+.gitZnacznik{
+    position:absolute;
+    left:520px;
+    top:430px;
+    width:86px;
+    
+}
+a button{
+    position:absolute;
+    left:5px;
+    
+    background-color:gold;
+    cursor:pointer;
+    width:90px;
+    height:30px;
+    
+}

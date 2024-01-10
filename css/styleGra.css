@@ -1,0 +1,166 @@
+body{
+    background-image:url(https://wallpaperaccess.com/full/429863.jpg);
+
+}
+#return{
+    text-decoration:none;
+    
+}
+.return{
+    background:yellow;
+}
+#clicker{
+    position:absolute;
+    width:220px;
+    height:256px;
+    left:30%;
+    top:35%;
+}
+#score{
+    position:absolute;
+    left:58%;
+    font-size:64px;
+    top:-35px;
+    color:black;
+    z-index:3;
+    
+}
+.amount{
+    color:white;
+}
+#scoreSign{
+    position:absolute;
+    left:23%;
+    top:-45px;
+    font-size:64px;
+    color:black;
+}
+#container{
+    width:1500px;
+    height:750px;
+    
+}
+#game{
+    position:absolute;
+    left:570px;
+    width:600px;
+    height:760px;
+    background-color:gray;
+
+    
+}
+header{
+    width:100%;
+    background-color:gainsboro;
+}
+#shop{
+    position:absolute;
+    left:62.7%;
+    background-color:darkgray;
+    width:687px;
+    height:760px;
+}
+#achievements{
+    position: absolute;
+    left:0.45%;
+    background-color:darkgray;
+    width:600px;
+    height:760px;
+}
+.coin{
+    padding-top:10px;
+    padding-left:10px;
+    width:64px;
+}
+#money{
+    position: relative;
+    left:90px;
+    top:-75px;
+    
+    
+}
+.uCoin1{
+    width:24px;
+    position:absolute;
+    left:175px;
+    top:259px;
+
+
+}
+.kosztMoney{
+    position: absolute;
+    top:265px;
+    left:90px;
+    height:auto;
+}
+.uZabaMoney{
+    background-color:greenyellow;
+    position:absolute;
+    left:30px;
+    top:264px;
+}
+.uCoin2{
+    width:24px;
+    position:relative;
+    left:470px;
+}
+.uZabaScore{
+    background-color:greenyellow;
+    position:absolute;
+    left:330px;
+    top:264px;
+}
+.kosztScore {
+    position: absolute;
+    top:265px;
+    left:390px;
+    height:auto;
+}
+#uPoziomScore{
+    position:absolute;
+    left:300px;
+    top:196px;
+}
+.uCoin3{
+    width:24px;
+    position:relative;
+    left:60px;
+    top:5px;
+}
+.uZabyMoneyP{
+    background-color:greenyellow;
+    position:relative;
+    left:30px;
+
+}
+#kosztZabyMoney{
+    position:relative;
+    left:35px;
+    height:auto;
+    width: auto;
+}
+.uZabyScoreP{
+    background-color:greenyellow;
+    position:absolute;
+    left:320px;
+    top:381px;
+}
+.uCoin4{
+    width:24px;
+    position:absolute;
+    left:470px;
+    top:380px;
+
+}
+#lvlZabyScore{
+    position:absolute;
+    left:300px;
+    top:305px;
+}
+#kosztZabyScore{
+    position: absolute;
+    top:383px;
+    left:390px;
+    height:auto;
+    width: auto;
+}

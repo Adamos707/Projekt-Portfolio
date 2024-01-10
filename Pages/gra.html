@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adamos clicker</title>
+    <link rel="stylesheet" href="../css/styleGra.css">
+    <script src="../script/scriptGra.js"></script>
+</head>
+<body onload="">
+    <button class="return" ><a id="return" href="../index.html">Wyjdź z gry</a></button>
+    <header>
+        <h1>Witaj w grze o nazwie Adamos clicker. Klikaj w obrazek żaby, żeby zdobywać punkty oraz przyspiesz swoje postępy poprzez kupno ulepszeń zbierania oraz wyniku</h1><br><br>
+
+    </header>
+    <div id="container">
+
+
+        <div id="achievements">
+            
+        </div>
+
+
+        <div id="game">
+            <h2 id="scoreSign">Wynik:</h2>
+            <h1 id="score">0</h1>
+            <img id="clicker" onclick="clickBtn()" src="../img/pepe ez.jpg">
+            
+        </div>
+    
+        <div id="shop">
+            <img class="coin" src="../img/coin.png" alt="moneta">
+            <h1 id="money">0</h1><br><br>
+            
+            <h2 id="uPoziomMoney">Pieniądze poziom 1</h2>
+            <button class="uZabaMoney" onclick="uZabaMoney()">ulepsz</button>
+            <b class="kosztMoney" id="ulvlMoney">Koszt 500</b><img class="uCoin1" src="../img/coin.png" alt="moneta">
+            
+            <h2 id="uPoziomScore">Wynik poziom 1</h2>
+            <button class="uZabaScore" onclick="uZabaScore()">ulepsz</button>
+            <b class="kosztScore" id="ulvlScore">Koszt 300</b><img class="uCoin2" src="../img/coin.png" alt="moneta"><br><br>
+            
+            <h2 id="lvlZabyMoney">Żaby monety poziom 0</h2>
+            <button class="uZabyMoneyP" onclick="uZabyMoney()">ulepsz</button>
+            <b class="" id="kosztZabyMoney">Koszt 0</b><img class="uCoin3" src="../img/coin.png" alt="moneta">
+
+            <h2 id="lvlZabyScore">Żaby wynik poziom 0</h2>
+            <button class="uZabyScoreP" onclick="uZabyScore()">ulepsz</button>
+            <b class="" id="kosztZabyScore">Koszt 0</b><img class="uCoin4" src="../img/coin.png" alt="moneta">
+        </div>
+
+    </div>
+  
+   
+       
+    
+</body>
+</html>

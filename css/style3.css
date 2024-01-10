@@ -1,0 +1,26 @@
+.pepe{
+    position:absolute;
+    width:256px;
+    left:45%;
+    top:29%;
+
+}
+.opis{
+    position:absolute;
+    top:55%;
+    left:45%;
+    color:beige;
+    width:256px;
+    }
+body{
+    background-color:#272B3F;
+    
+}
+button{
+    position:absolute;
+    left:49%;
+    top:20%;
+    background:linear-gradient( to right,red,green);
+    cursor:pointer;
+
+}
